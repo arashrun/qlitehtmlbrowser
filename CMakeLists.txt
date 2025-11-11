@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.28)
 
 project( QLiteHtmlBrowser VERSION 2.3.1 )
 
+set(LITEHTML_BUILD_TESTING OFF CACHE BOOL "Disable litehtml tests" FORCE)
 include(GNUInstallDirs)
 
 if(PROJECT_IS_TOP_LEVEL)
